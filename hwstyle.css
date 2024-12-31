@@ -1,0 +1,53 @@
+body { 
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: blue;
+    color:rgb(245, 87, 8);
+}
+
+h1{
+    color :blueviolet
+}
+
+ a{
+    color: rgb(161, 139, 13);
+    text-decoration: none;
+ }
+
+ a:hower {
+    color: rgb(203, 138, 190);
+ }
+ul> li {
+   font-weight: bold;
+}
+
+h1 + p {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(228, 44, 12);
+}
+
+ul li :hower {
+    color: aqua;
+}
+
+ul li:nth-child(3)
+{
+    background-color: beige;
+}
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before{
+    content: "";
+}
+
+ul li ::after{
+    content: "⚽";
+}
+
+p::first-letter{
+    font-size:200%;
+    color: bisque;
+}
